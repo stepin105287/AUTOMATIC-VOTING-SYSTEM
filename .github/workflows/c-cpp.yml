@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: make all
-      run:  make -C MiniProject_C/implementation/
+      run:  make -C MiniProject_C/implementation2/
 
