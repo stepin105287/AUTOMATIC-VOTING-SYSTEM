@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C MiniProject_C/implementation2/
-        valgrind ./MiniProject_C/implementation2/build/AutomaticVotingSystem.out.out
+        valgrind ./MiniProject_C/implementation2/build/AutomaticVotingSystem.out
