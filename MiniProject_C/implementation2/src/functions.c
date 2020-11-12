@@ -11,31 +11,16 @@
 #define CANDIDATE3 "M S Dhoni"
 #define CANDIDATE4 "Rohit Sharma"
 
-
-extern int votesCount1, votesCount2, votesCount3, votesCount4, spoiledtvotes;
-extern int voter[15];
-extern int newVoter[15];
-extern int voter1[15];
-FILE *voters2;
-FILE *number;
-FILE *voters1;
-extern int check;
+int voter_array[15]={1234,1324,1243,1342,1423,1432,2134,2314,2341,2413,2431,2143,3124,3214,3241};
 
 
 int voter_check(char num[5])
 {
-voters2 = fopen("voter1.txt","r");
-int n=0;
-for(n=0;n<=14;n++)
-{
-    fscanf(voters2,"%d",&voter1[n]);
-}
-fclose(voters2);
 int z = atoi(num);
 int flag=0;
 for(int i=0;i<=14;i++)
 {
-    if(z==voter1[i])
+    if(z==voter_array[i])
     {
         flag=1;
         break;
