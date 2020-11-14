@@ -1,0 +1,23 @@
+voter-id's : 1234,1243,1324,1342,1423,1432,2134,2143,2314,2341,2413,2431,3124,3142,3214
+admin password: 1723
+
+please follow the below mentioned steps when you run the program:
+1.At the begining press 1 to start with a new election, press 2 to continue with the previous election.
+2.next, press 1 to cast the vote, press 2 for admin options, press 3 to exit from the program.
+3.if 1 is pressed in the previous step, then the system asks for unique 4 digits voter-id. following are the voter ID's of 15 users:
+    1234,1243,1324,1342,1423,1432,2134,2143,2314,2341,2413,2431,3124,3142,3214
+4.if any id other than above mentioned ID's is enytered, then the system outputs that the entered voter-id is invalid.
+5.each user can cast the vote only ones, if a second attempt is made to cast the vote by re-entering the used voterid, then the system outputs
+"you have already casted your vote".
+6. if a valid voter-id is entered, then the system displays list of candidates contesting in election along with their serial no's and asks
+the voter to select their candidate by entering corresponding serrial no. the vote is then recorded and added to existing votes of that candidate.
+user can also choose none of the above if he is not intrested in any of the candidates contesting in the election.
+6. if in step 2, 2 is pressed then the system asks for unique 4 digits admin password which is 1723.
+7. if entered password is incorrect then the system outputs that the entered password is incorrect.
+8. if entered password is correct i.e 1723, then the system displays the options available for admin they are:
+       1. to view the number of votes obtained by each candidate.
+       2. to view the name of the leading candidate.
+       3. to exit from the application.
+9. if 1 is entered, then the system displays the number of votes obtained by each candidate.
+10. if 2 is entered, then the system displays the name of the leading candidate. if there is a tie then the system displays that there is a tie.
+11. if 3 is pressed, then the user exits from the application
